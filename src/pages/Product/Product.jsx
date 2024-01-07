@@ -41,7 +41,7 @@ const Product = () => {
             image={product?.image} url={window.location.href}
           >
             <div className="productCont">
-              <img src={product?.image} alt="product image" />
+              <img className='productPageImg' src={product?.image} alt="product image" />
               <div className="details">
                 <h2>{product?.title}</h2>
                 <p>{product?.description}</p>
